@@ -2,7 +2,7 @@ module.exports = {
   src: {
     ui: {
       routes: {
-        'application.js': 'import NestedUtil from "my-app/src/ui/utils/nested/util"; import SingleUtil from "my-app/src/ui/utils/single";',
+        'application.js': 'import NestedUtil from "my-app/src/utils/nested/util"; import SingleUtil from "my-app/src/utils/single";',
         'index.js': 'import ApplicationRoute from "./application";',
         post: {
           'index.js': 'import ApplicationRoute from "../application";'
